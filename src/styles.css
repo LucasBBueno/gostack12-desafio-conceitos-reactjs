@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7159c1;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.mainContainer {
+  background-color:#ffff;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: auto;
+}
+
+.mainContainer .repositoryList {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer .repositoryList .repositoryItem {
+  align-items: center;
+  border: 1px solid #dddd;
+  border-radius: 5px;
+  color: #757575;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.mainContainer .repositoryList .repositoryItem .repositoryInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 50px;
+  margin-top: 10px;
+}
+
+.repositoryInfoContainer label {
+  margin-top: 20px;
+}
+
+button {
+  background: #7159c1;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  margin: 15px;
+}
+
+.buttonLike {
+  background: #21C810;
+  margin: 1 0;
+  width: 100px
+}
+
+.buttonRemove {
+  background: #ca4949;
+  margin: 0 0;
+  width: 100px
+}
+
